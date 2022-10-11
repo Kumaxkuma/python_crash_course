@@ -1,0 +1,9 @@
+my_foods = ['pizza', 'falafel', 'carrot cake', 'pumpkin muffin']
+
+print("Here are the first three foods in my list:")
+for my_food in my_foods[:3]:
+	print(my_food.title())
+
+print("\nHere are the last three foods in my list:")
+for my_food in my_foods[1:]:
+	print(my_food.title())

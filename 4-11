@@ -1,0 +1,11 @@
+my_pizzas = ['cheese', 'three cheese', 'margherita']
+friend_pizzas = my_pizzas[:]
+
+my_pizzas.append('veggie')
+friend_pizzas.append('pepperoni')
+
+print("My favorite pizzas are:")
+print(my_pizzas)
+
+print("\nMy friends favorite pizzas are:")
+print(friend_pizzas)
