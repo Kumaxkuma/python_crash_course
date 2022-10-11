@@ -1,0 +1,5 @@
+pizzas = ['cheese','pepperoni','3 cheese']
+for pizza in pizzas:
+	print(f"I like {pizza.title()}.")
+
+print(f"I like pizza so much I ate it every day for a year.")
